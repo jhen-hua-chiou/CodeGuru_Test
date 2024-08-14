@@ -59,7 +59,7 @@ public class BackDoors extends LessonAdapter{
 				}
 		}
 		catch (Exception ex){
-			
+			//log.error("Exception is caught.", ex);
 		}
 		return ec;
     }
