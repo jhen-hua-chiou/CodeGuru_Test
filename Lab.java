@@ -61,6 +61,10 @@ public class BackDoors extends LessonAdapter{
 		catch (Exception ex){
 			//log.error("Exception is caught.", ex);
 		}
+	    	String sql = SELECT_ST + userInput;
+		Connection conn = getConnection(s);
+		Statement statement = conn.createStatement();
+		ResultSet rs = statement.executeQuery(sql);
 		return ec;
     }
 	protected Element makeUsername(WebSession s){
