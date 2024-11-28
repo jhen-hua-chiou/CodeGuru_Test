@@ -37,7 +37,7 @@ jobs:
           #checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }} # To be stored in GitHub Secrets.
           project: Github_Action # <-- Insert Checkmarx SAST Project Name
           team: /CxServer
-          checkmarx_url: http://s19cxtalbert01 # To be stored in GitHub Secrets.
+          checkmarx_url: http://jonny_kung.gss.com.tw # To be stored in GitHub Secrets.
           checkmarx_username: admin@cx # To be stored in GitHub Secrets.
           checkmarx_password: 1qaz@WSX#EDC # To be stored in GitHub Secrets.
           checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C # To be stored in GitHub Secrets.
