@@ -18,7 +18,6 @@ on:
   push:
     branches:
       - main
-      - master
 
 jobs:
   build:
@@ -35,7 +34,7 @@ jobs:
           checkmarx_username: ${{ secrets.CHECKMARX_USER }} # To be stored in GitHub Secrets.
           checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }} # To be stored in GitHub Secrets.
           checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }} # To be stored in GitHub Secrets.
-          project: Github_Action # <-- Insert Checkmarx SAST Project Name
+          project: Github_Action_Test # <-- Insert Checkmarx SAST Project Name
           team: /CxServer
           #checkmarx_url: http://jonny_kung.gss.com.tw # To be stored in GitHub Secrets.
           #checkmarx_username: admin@cx # To be stored in GitHub Secrets.
